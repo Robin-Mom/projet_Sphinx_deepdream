@@ -1,0 +1,34 @@
+projet_Sphinx_deepdream
+Copyright 2026 Robin Mom
+
+This project contains or is derived from software originally developed by third parties, including:
+
+1. DeepDream
+
+The DeepDream code was originally developed by Google and is licensed under the Apache License, Version 2.0.
+
+Original project:
+https://github.com/google/deepdream
+
+The original DeepDream repository states that its code is licensed under the Apache License, Version 2.0.
+
+Authors of the original DeepDream work include Alexander Mordvintsev, Michael Tyka, and Christopher Olah.
+
+2. Caffe
+
+This project uses Caffe, developed by the Berkeley Vision and Learning Center (BVLC) and contributors.
+
+Caffe is licensed under the BSD 2-Clause License.
+
+Original project:
+https://github.com/BVLC/caffe
+
+The Caffe reference models are subject to the licensing terms specified by their respective distributions.
+
+3. Third-party images and other assets
+
+Images, datasets, pretrained models, or other assets distributed with this repository may be subject to licenses separate from the software license of this project.
+
+Their respective copyright and licensing information must be preserved where applicable.
+
+Except where otherwise stated, the original code developed specifically for DeepDream-Caffe by the project author is licensed under the Apache License, Version 2.0.
