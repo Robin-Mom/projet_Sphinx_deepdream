@@ -1,0 +1,37 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# data and personal stuff
+
+/data/
+frames/
+test_pirates.jpg
+computer_vision.ipynb
+procedure.ipynb
+usefull_sphinx.ipynb
+test_for_dream.ipynb
+.ipynb_checkpoints
+.virtual_documents
+
+# conda folders
+
+anaconda_projects/
+
+# deepdream repo
+
+/deepdream/
+
+# caffe repo
+
+/caffe/
+
+
+
