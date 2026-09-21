@@ -16,12 +16,11 @@ for CPU only (Dockerfile). Deepdream was originally developed with caffe. Becaus
 your GPU and then specify manually tho options: **-DCUDA_ARCH_BIN=XXX** and **-DCUDA_ARCH_PTX=XXX** in the Dockerfile.gpu. The automatic mode for CUDA architecture detection is 
 too outdated to detect recent architectures. Alternatively, the CPU build should work on any computer but it is obviously then quite slower to generate deepdream images...
 an example of command to build the image and then to run your container locally and access the notebook:
+```bash
+docker build -f Dockerfile -t deepdream-caffe . ### to run from the root of the repository
 
--> docker build -f Dockerfile -t deepdream-caffe . ### to run from the root of the repository
-
--> docker run --rm -it -p 8890:8888 -v "$PWD/notebooks:/workspace/notebooks" deepdream-caffe ### you can choose any port of your preference instead of 8890. 
-Once running you just have to go to http://localhost:8890 to find the notebook.
-
+docker run --rm -it -p 8890:8888 -v "$PWD/notebooks:/workspace/notebooks" deepdream-caffe ### you can choose any port of your preference instead of 8890. Once running you just have to go to http://localhost:8890 to find the notebook.
+```
 * The caffe repository which is only used for the Dockerfile to build the image.
 
 * Inside "notebooks", the dream.ipynb from google deepdream original repository with very very tiny modifications (related to compatibilities issues). 
